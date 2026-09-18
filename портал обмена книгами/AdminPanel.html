@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="AdminPanel.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     
+        <div class = "namingPortal">
+           <img src = "img/book-icon.png"/>
+               <h3>Буквоежа</h3>
+           <div>
+           <p>портал обмена книг</p>  
+           </div>
+        </div>        
+        <div class = "CenterPanel">
+           <h3><a href="reg.html">Регистрация</a></h3>
+           <h3><a href="WatchCards.html">Просмотр карточек</a></h3>
+           <h3><a href="CreateCards.html">Создание карточек</a></h3>
+           <h3><a href="AdminPanel.html">Панель администратора</a></h3>
+        </div>
+       </header>
+
+    <body>
+        
+        
+        <div class="Body">
+            <form action="WatchCard.html" id="AdminForm">
+                <div class="content">
+                    <h1>Панель администратора</h1>
+                    
+                        <div>
+                          <input id="login" type="text" placeholder="Введите логин" required/>  
+                        </div>
+                        <div>
+                         <input id="password" type="password" placeholder="Введите пароль" required/>   
+                        </div>
+                       
+                        <button id="submit">Войти</button>
+                
+                    
+                </div>
+            </form>
+            <script src = "AdminPanel.js"></script>
+        <div class="WatchCard" id = "WatchCard">
+            <h1>Панель администратора</h1>
+            <div class="Cards">
+                <div class="Card1">
+                    <form id = "formCard1">
+                        <img src = "img/book.png"/>
+                        <p>Навзание книги: Война и мир</p>
+                        <p>Автор книги: Л.Н.Толстой</p>
+                        <p>Готов поделиться</p>
+                        <p>Бу</p>
+                        <p>Мягкий</p>
+                    <input class="otkaz" id="otcaz1" placeholder="Введите причину отказа">
+                    <button class="Publish" id = "Publish1">Опубликовать</button>
+                    <button class="Delete" id = "submit">Удалить</button>
+                    </form>
+                    <script src ="AdminPanel.js"></script>
+                    
+                </div>
+                <div class="Card1">
+                    <form id = "formCard2">
+                        <img src = "img/book.png"/>
+                        <p>Навзание книги: Война и мир</p>
+                        <p>Автор книги: Л.Н.Толстой</p>
+                        <p>Готов поделиться</p>
+                        <p>Новое</p>
+                        <p>Твёрдый</p>
+                        <input class="otkaz" id="otcaz2" placeholder="Введите причину отказа">
+                        <button class="Publish" id = "Publish2">Опубликовать</button>
+                        <button class="Delete" id = "submit">Удалить</button>
+                        </form>
+                        <script src ="AdminPanel.js"></script>
+                </div>
+                <div class="Card1">
+                    <form id = "formCard3">
+                        <img src = "img/book.png"/>
+                        <p>Навзание книги: Война и мир</p>
+                        <p>Автор книги: Л.Н.Толстой</p>
+                        <p>Хочу в свою библеотеку</p>
+                        <p>Новое</p>
+                        <p>твёрдый</p>
+                        <input class="otkaz" id="otcaz3" placeholder="Введите причину отказа">
+                        <button class="Publish" id = "Publish3">Опубликовать</button>
+                        <button class="Delete" id = "submit">Удалить</button>
+                        </form>
+                        <script src ="AdminPanel.js"></script>
+                </div>
+            </div>
+        </div>
+            </div>
+    </body>
+</body>
+</html>

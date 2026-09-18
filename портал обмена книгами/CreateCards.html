@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="mainstyle.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     
+        <div class = "namingPortal">
+           <img src = "img/book-icon.png"/>
+               <h3>Буквоежа</h3>
+           <div>
+           <p>портал обмена книг</p>  
+           </div>
+        </div>        
+        <div class = "CenterPanel">
+           <h3><a href="reg.html">Регистрация</a></h3>
+           <h3><a href="WatchCards.html">Просмотр карточек</a></h3>
+           <h3><a href="CreateCards.html">Создание карточек</a></h3>
+           <h3><a href="AdminPanel.html">Панель администратора</a></h3>
+        </div>
+       </header>
+    <body>
+        <div class="Body">
+            
+            <div class="content">
+                <h1>Создание карточки</h1>
+                <form action="WatchCards.html">
+                    <div>
+                      <input id="text" type="text" placeholder="Введите автора книги" required/>  
+                    </div>
+                    <div>
+                     <input id="text" type="text" placeholder="Введите название книги" required/>   
+                    </div>
+                    <div>  
+                        <label>
+                            <input  type="radio" name ="choise" value = "rev" placeholder="" required>Готов поделиться </input> 
+
+                        </label> 
+                        <label>
+                            <input  type="radio" name ="choise" value = "libary" placeholder="" required> Хочу в свою библеотеку </input> 
+                        </label>
+                       </div>
+                       <h2>Дополнительные поля</h2>
+                       <div>
+                        <input id="text" type="text" placeholder="Введите Издательство" />   
+                       </div>
+                       <div>
+                        <h3>Введите год издательства</h3>
+                        <input id="text" type="date" placeholder="Введите год" />   
+                       </div>
+                       <div>
+                        
+                        <h3>Выберите преплёт</h3>
+                        <select>
+                            <option>Мягкий</option>
+                            <option>Твёрдый</option>
+                        </select>  
+                       </div>
+                       <div>
+                        
+                        <h3>Выберите состояние</h3>
+                        <select>
+                            <option>Бу</option>
+                            <option>Новая</option>
+                        </select>  
+                       </div>
+
+                    <button id="submit">Создать</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</body>
+</html>

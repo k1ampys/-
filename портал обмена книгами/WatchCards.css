@@ -1,0 +1,61 @@
+.deleteAdmin{
+    color:red;
+}
+@media (min-width:390px) {
+    .WatchCard h1{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+
+}
+.Card1{
+    margin-left: 2%;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(243, 162, 63,0.9);
+    width: 10%;
+}
+.Card1 img{
+    width: 50%;
+}
+.Cards{
+    display: flex;
+    align-items: stretch;
+}
+.Card1 button{
+    padding: 5%;
+   border-radius: 60px;
+    background-color: red;
+    color: white;
+}
+}
+
+
+@media (max-width:390px) {
+        .WatchCard h1{
+        margin-left: 2%;
+        margin-top: 2%;
+        color: white;
+
+    }
+    .Card1{
+        margin-left: 2%;
+        padding: 2%;
+        text-align: center;
+        background-color: rgba(243, 162, 63,0.9);
+        width: 38%;
+    }
+    .Card1 img{
+        width: 50%;
+    }
+    .Cards{
+        display: flex;
+        align-items: stretch;
+    }
+    .Card1 button{
+        padding: 5%;
+    border-radius: 60px;
+        background-color: red;
+        color: white;
+    }
+}

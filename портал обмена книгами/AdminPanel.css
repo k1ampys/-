@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('img/bookshelf.jpg');
+}
+.content h1{
+    color:black;
+}
+.WatchCard {
+    display: none;
+}
+.otkaz{
+    display: none;
+}
+@media (min-width :390px) {
+
+    a{
+        text-decoration: none;
+        color : black;
+    }
+    .namingPortal{
+        text-align: center;
+    }
+    header{
+
+        background-color: rgb(243, 162, 63);
+    }
+    img{
+        width:5%
+    }
+    .CenterPanel{
+        text-align: center;
+        background-color: rgb(238, 141, 22);
+    }
+    .CenterPanel h3{
+        padding-left:10%;
+       display: inline-block;
+    
+    }
+   
+    .content{
+        padding: 3%;
+        margin: 3% auto;
+        text-align: center;
+        width: max-content;
+       background-color: rgba(243, 162, 63,0.9);
+    }
+    
+    .content input,button,select{
+        margin-top: 5%;
+        border-radius: 60px;
+        padding:3%
+
+    }
+    
+.WatchCard h1{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+
+}
+.Card1{
+    margin-left: 2%;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(243, 162, 63,0.9);
+    width: 10%;
+}
+.Card1 img{
+    width: 50%;
+}
+.Cards{
+    display: flex;
+    align-items: stretch;
+}
+.Delete{
+    padding: 5%;
+   border-radius: 60px;
+    background-color: red;
+    color: white;
+}
+.Publish{
+    padding: 5%;
+   border-radius: 60px;
+    background-color: green;
+    color: white;
+}
+.Card1 input{
+    margin-top: 5%;
+        border-radius: 60px;
+        padding:3%
+}
+    
+}
+
+@media (max-width:390px) {
+    img{
+        width:20%
+    }
+    .WatchCard h1{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+
+}
+.Card1{
+    margin-left: 2%;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(243, 162, 63,0.9);
+    width: 38%;
+}
+.Card1 img{
+    width: 50%;
+}
+.Cards{
+    display: flex;
+    align-items: stretch;
+}
+.Card1 button{
+    padding: 5%;
+border-radius: 60px;
+    background-color: red;
+    color: white;
+}
+.Card1 input{
+    margin-top: 5%;
+        border-radius: 60px;
+       width: 80%;
+}
+}

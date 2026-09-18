@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="mainstyle.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     
+        <div class = "namingPortal">
+           <img src = "img/book-icon.png"/>
+               <h3>Буквоежа</h3>
+           <div>
+           <p>портал обмена книг</p>  
+           </div>
+        </div>        
+        <div class = "CenterPanel">
+           <h3><a href="avtorization.html">Авторизация</a></h3>
+           <h3><a href="WatchCards.html">Просмотр карточек</a></h3>
+           <h3><a href="CreateCards.html">Создание карточек</a></h3>
+           <h3><a href="AdminPanel.html">Панель администратора</a></h3>
+        </div>
+       </header>
+    <body>
+        <div class="Body">
+            
+            <div class="content">
+                <h1>Регистрация</h1>
+                <form action="WatchCards.html" id="RegistrationForm">
+                    <div>
+                      <input id="login" type="text" placeholder="Введите логин" required/>  
+                    </div>
+                    <div>
+                     <input id="password" type="password" placeholder="Введите пароль" required/>   
+                    </div>
+                    <div>
+                        <input id="fio" type="text" placeholder="Введите ФИО" required/>
+                    </div>
+                    <div>
+                        <input id="phone" type="tel" placeholder="+7(XXX)-XXX-XX-XX" required/>
+                    </div>
+                    <div>
+                         <input id="email" type="email" placeholder="Введите почту" required/>
+                    </div>
+                   
+                    <button id = "submit">Зарегестрироваться</button>
+                </form>
+                <script src="reg.js"></script>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
